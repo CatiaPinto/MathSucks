@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        System.out.println("Testing committing files");
+
         totalTextView = (TextView) findViewById(R.id.totalTextView);
         percentageTxt = (EditText) findViewById(R.id.percentage);
         numberTxt = (EditText) findViewById(R.id.number);
